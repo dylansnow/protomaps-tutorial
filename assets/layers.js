@@ -29,7 +29,7 @@ const layers = [
       "source": "openmaptiles",
       "source-layer": "water",
       "layout": {"visibility": "visible"},
-      "paint": {}
+      "paint": {"fill-color": "rgba(236, 235, 235, 1)", "fill-opacity": 1}
     },
     {
       "id": "building",
