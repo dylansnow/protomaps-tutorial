@@ -36,7 +36,7 @@ http://localhost:8080/OUTPUT/0/0/0.mvt # This should download an .mvt file, whic
 npm install --global serve
 serve ./assets --cors=*
 ```
-2. Check that the styling files are hosted correctly by navigating to your browser: [http://localhost:3000/layers.js]
+2. Check that the styling files are hosted correctly by navigating to your browser: [http://localhost:3000/layers.js](http://localhost:3000/layers.js)
 
 ### Hosting the front-end
 
@@ -44,8 +44,9 @@ In this directory:
 ```bash
 npm install
 npm run dev
-# Navigate to http://localhost:5173 and view the map
 ```
+
+Navigate to the front-end to view your app: [http://localhost:5173](http://localhost:5173)
 
 ## AWS hosting
 
