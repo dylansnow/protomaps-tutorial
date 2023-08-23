@@ -1,4 +1,4 @@
-# Protomaps Front-End and Tutorial
+# Protomaps Self and Remote hosting Tutorial
 
 This repository shows how to create a front-end and back-end to self-host Open Street Maps data using a serverless approach with the Protomaps tile service.
 
@@ -33,8 +33,9 @@ http://localhost:8080/OUTPUT/0/0/0.mvt # This should download an .mvt file, whic
 ### Hosting the **file hosting service**
 1. Host the styling files (included in this repo inside the *assets* folder) with the NPM module **serve**:
 ```bash
+cd assets/
 npm install --global serve
-serve ./assets --cors=*
+serve . --cors=*
 ```
 2. Check that the styling files are hosted correctly by navigating to your browser: [http://localhost:3000/layers.js](http://localhost:3000/layers.js)
 
@@ -55,3 +56,13 @@ WIP
 ## References
 
 Original guide that was loosely followed, and to find out more information on how the layers.js and map styling is configured: https://gist.github.com/mikaelhg/edf65dfad43e240fb4c483587b5e7f93
+
+To create the lambda_function.zip that is used to do the HTTP range requesting/ tile service:
+- Download directly from here: https://protomaps.github.io/PMTiles/lambda_function.zip
+- Build it yourself (did not work for me): https://github.com/protomaps/PMTiles/tree/main/serverless/aws
+
+To get the OpenStreetMap glyphs/ styling yourself:
+- Download them directly from here (I used v2.0): https://github.com/openmaptiles/fonts/releases
+
+To get the OpenStreetMap layer styling yourself, refer to the "layers" variable here:
+- https://github.com/openmaptiles/osm-bright-gl-style/blob/master/style.json
