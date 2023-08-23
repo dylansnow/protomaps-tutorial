@@ -40,13 +40,13 @@ serve ./assets --cors=*
 
 ### Hosting the front-end
 
-In this directory:
+1. Host the front-end by using the NPM module **Vite**:
 ```bash
 npm install
 npm run dev
 ```
-
-Navigate to the front-end to view your app: [http://localhost:5173](http://localhost:5173)
+2. Update the osm-styles.json to point to your correct **file hosting service** for the *glyphs* variable and the **tile hosting service** for the *tiles* variable
+3. Navigate to the front-end to view your app: [http://localhost:5173](http://localhost:5173)
 
 ## AWS hosting
 
