@@ -57,12 +57,12 @@ WIP
 
 Original guide that was loosely followed, and to find out more information on how the layers.js and map styling is configured: https://gist.github.com/mikaelhg/edf65dfad43e240fb4c483587b5e7f93
 
-To create the lambda_function.zip that is used to do the HTTP range requesting/ tile service:
+To create the *assets/lambda_function.zip* that is used to do the HTTP range requesting/ tile service:
 - Download directly from here: https://protomaps.github.io/PMTiles/lambda_function.zip
 - Build it yourself (did not work for me): https://github.com/protomaps/PMTiles/tree/main/serverless/aws
 
-To get the OpenStreetMap glyphs/ styling yourself:
+To get the OpenStreetMap *assets/glyphs* styling yourself:
 - Download them directly from here (I used v2.0): https://github.com/openmaptiles/fonts/releases
 
-To get the OpenStreetMap layer styling yourself, refer to the "layers" variable here:
+To get the OpenStreetMap *assets/layers.js* layer styling yourself, refer to the "layers" variable here:
 - https://github.com/openmaptiles/osm-bright-gl-style/blob/master/style.json
