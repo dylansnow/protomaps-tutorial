@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Large .pmtiles files
-assets\osm-2020-02-10-v3.11_north-america_us.pmtiles
+assets/osm-2020-02-10-v3.11_north-america_us.pmtiles
