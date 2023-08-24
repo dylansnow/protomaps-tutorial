@@ -7,12 +7,12 @@
     "sources": {
       "openmaptiles": {
         "type": "vector",
-        "tiles": ["http://localhost:8080/osm-2020-02-10-v3.11_north-america_us/{z}/{x}/{y}.mvt"],
+        "tiles": ["https://ol7nsaqv36knaohpr65vm7o5oe0ikcgu.lambda-url.us-east-1.on.aws/osm-2020-02-10-v3.11_north-america_us/{z}/{x}/{y}.mvt"],
         "maxzoom": 13,
         "minzoom": 0
       }
     },
-    "glyphs": "http://localhost:3000/glyphs/{fontstack}/{range}.pbf",
+    "glyphs": "https://hhdtwr7eapoojxwqzyewjsbp6u0immnd.lambda-url.us-east-1.on.aws/glyphs/{fontstack}/{range}.pbf",
     "layers": [
       {
         "id": "background",
